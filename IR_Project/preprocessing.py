@@ -7,8 +7,22 @@ from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer, WordNetLemmatizer
 
+def ensure_nltk_resources():
+    resources = {
+        "tokenizers/punkt": "punkt",
+        "tokenizers/punkt_tab": "punkt_tab",
+        "corpora/stopwords": "stopwords",
+        "corpora/wordnet": "wordnet",
+    }
+    for path, package in resources.items():
+        try:
+            nltk.data.find(path)
+        except LookupError:
+            nltk.download(package, quiet=True)
+            
 class TextPreprocessor:
     def __init__(self, remove_stopwords: bool = True, normalization: str = "lemmatize", custom_stopwords: List[str] = None):
+        ensure_nltk_resources()
         if normalization not in {"lemmatize", "stem", "none"}:
             raise ValueError("normalization must be 'lemmatize', 'stem', or 'none'")
 
