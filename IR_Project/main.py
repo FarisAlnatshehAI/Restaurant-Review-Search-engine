@@ -12,7 +12,7 @@ def print_banner(title: str):
     print(f"  {title}")
     print("=" * 30 + "\n")
 
-def run_phase1_demonstration():
+def initialize_system():
     base_dir = os.path.dirname(os.path.abspath(__file__))
     dataset_path = os.path.join(base_dir, "dataset", "documents.csv")
 
@@ -99,5 +99,5 @@ def interactive_console(bool_engine, ranked_engine):
             print("\n⚠️ Invalid option. Please select 1, 2, 3, or q.\n")
 
 if __name__ == "__main__":
-    bool_eng, rank_eng = run_phase1_demonstration()
+    bool_eng, rank_eng = initialize_system()
     interactive_console(bool_eng, rank_eng)
