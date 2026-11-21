@@ -118,7 +118,7 @@ Document `D798` achieved the highest Cosine Similarity score (`0.4188`) because 
 
 | Student ID | Student Name | Assigned Modules / Role |
 | :--- | :--- | :--- |
-| 2300908018 | فارس جهاد رجب النتشه (Team Leader) | `ranked_search.py`, `main.py` |
+| فارس جهاد رجب النتشه (Team Leader) | 2300908018 | `ranked_search.py`, `main.py` |
 | احمد راجي سعيد عميره | 2400902065 | `prepare_dataset.py` |
 | مهند محمد يوسف الحارون | 2400902011 | `preprocessing.py` |
 | ليث محمود عيسى السلامين | 2300902178 | `inverted_index.py`, `boolean_search.py` |
