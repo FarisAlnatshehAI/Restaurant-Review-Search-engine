@@ -23,7 +23,7 @@ This project implements the core components of a Python-based Information Retrie
 Restaurant-Review-Search-engine/
 ├── IR_Project/
 │   ├── dataset/
-│   │   └── documents.csv          # Generated 1,000-document corpus
+│   │   └── documents.csv          # Generated 1,000-document -can't upload in GitHub because it is more than 25MB-
 │   ├── prepare_dataset.py         # Downloads, cleans, and samples the Yelp dataset
 │   ├── preprocessing.py           # Tokenization, stopword removal, lemmatization/stemming
 │   ├── inverted_index.py          # Dictionary & Set-based Inverted Index
@@ -118,10 +118,10 @@ Document `D798` achieved the highest Cosine Similarity score (`0.4188`) because 
 
 | Student ID | Student Name | Assigned Modules / Role |
 | :--- | :--- | :--- |
-o| 2300908018 | فارس جهاد رجب النتشه (Team Leader) | `ranked_search.py`, `main.py` |
-o| احمد راجي سعيد عميره | 2400902065 | `prepare_dataset.py` |
-o| مهند محمد يوسف الحارون | 2400902011 | `preprocessing.py` |
-o| ليث محمود عيسى السلامين | 2300902178 | `inverted_index.py`, `boolean_search.py` |
+| 2300908018 | فارس جهاد رجب النتشه (Team Leader) | `ranked_search.py`, `main.py` |
+| احمد راجي سعيد عميره | 2400902065 | `prepare_dataset.py` |
+| مهند محمد يوسف الحارون | 2400902011 | `preprocessing.py` |
+| ليث محمود عيسى السلامين | 2300902178 | `inverted_index.py`, `boolean_search.py` |
 
 ## 9. References & Acknowledgments
 
