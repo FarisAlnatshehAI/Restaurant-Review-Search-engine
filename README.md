@@ -55,7 +55,7 @@ python IR_Project/main.py
 ```
 
 ### Step 4: Run individual modules (for testing & verification)
-If `dataset/documents.csv` has not been generated yet, run `prepare_dataset.py` first (all must run in ):
+If `dataset/documents.csv` has not been generated yet, run `prepare_dataset.py` first (all must run in order):
 ```bash
 python IR_Project/prepare_dataset.py
 python IR_Project/preprocessing.py
